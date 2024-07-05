@@ -10,7 +10,7 @@ import ProtectedRoute from "./ProtectedRoute";
 const App = () => {
   const [auth, setAuth] = useState(false);
   return (
-    <div>
+    <div className="main-container">
       {/* Do not remove the main div */}
       <Home auth={auth} />
       <Routes>

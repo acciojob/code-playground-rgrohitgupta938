@@ -14,7 +14,7 @@ const App = () => {
       {/* Do not remove the main div */}
       <Home auth={auth} />
       <Routes>
-        <Route path="/" element={<First />} />
+        <Route path="/" element={<div>Page not Found</div>} />
         <Route
           path="/playground"
           element={

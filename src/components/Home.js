@@ -6,7 +6,7 @@ const Home = ({ auth }) => {
     <div>
       <p>
         {!auth
-          ? "Your are not authenticated,Please login first"
+          ? "You are not authenticated, Please login first"
           : "Logged in, Now you can enter Playground"}
       </p>
       <ul>

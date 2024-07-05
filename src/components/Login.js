@@ -10,7 +10,7 @@ const Login = ({ setAuth, auth }) => {
   return (
     <div>
       <h4>Login</h4>
-      <button onClick={handleLogin}>{auth ? "Logout" : "Login"}</button>
+      <button onClick={handleLogin}>{auth ? "Logout" : "Log In"}</button>
     </div>
   );
 };
